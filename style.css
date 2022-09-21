@@ -248,10 +248,12 @@ html, body{
 #introi1{
     display: flex;
     flex-direction: column;
+    z-index: 5;
 }
 
 #introi1 span{
     margin-top: 25px;
+    z-index: 5;
 }
 
 @keyframes breathe3 {
