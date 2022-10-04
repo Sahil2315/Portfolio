@@ -68,6 +68,30 @@ html, body{
     text-shadow: 3px 1px 5px #ffffff;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 255, 128, 0.705); 
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00ffeab6; 
+  }
+
+
 #row1{
     z-index: 0;
     margin: 0px;
@@ -227,6 +251,7 @@ html, body{
 .contele span{
     width: 30%;
     min-width: 250px;
+    align-self: center;
 }
 
 .contele a{
@@ -497,7 +522,8 @@ html, body{
 #proj{
     position: relative;
     width: 100%;
-    margin-top: 100px;
+    height: 100%;
+    margin-top: 70px;
     color: aquamarine;
     z-index: 5;
     display: flex;
@@ -507,9 +533,32 @@ html, body{
 }
 
 .projele{
-    margin-top: 20px;
-    margin-left: 10%;
+    margin-top: 10px;
     width: 80%;
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0.404);
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.projcont{
+    display: flex;
+    flex-direction: column;
+}
+
+.projhead{
+    font-size: 24px;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.projele a{
+    width: max-content;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(250, 127, 148);
+}
+.projele a:hover{
+    background-color: #6600b975;
 }
