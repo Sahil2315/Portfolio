@@ -248,6 +248,11 @@ html, body{
     min-width: 450px;
 }
 
+.contele i, img{
+    width: 35px;
+    height: 35px;
+}
+
 .contele span{
     width: 30%;
     min-width: 250px;
