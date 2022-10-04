@@ -244,16 +244,16 @@ html, body{
     font-size: 2.1em;
     color: white;
     margin-top: 30px;
-    width: 50%;
+    width: 65%;
     min-width: 450px;
 }
 
 .contele span{
-    width: 30%;
+    width: 35%;
     min-width: 250px;
     align-self: center;
-    display:flex;
-    algin-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .contele a{
