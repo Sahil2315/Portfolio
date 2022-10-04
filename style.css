@@ -82,7 +82,7 @@ html, body{
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(0, 255, 128, 0.705); 
+    background: rgba(0, 255, 221, 0.267); 
     border-radius: 3px;
   }
   
