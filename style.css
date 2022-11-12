@@ -452,7 +452,6 @@ html, body{
     font-weight: 600;
     text-shadow: 1px 1px 4px #fff;
     margin-bottom: 15px;
-    /* animation: shaketext 0.2s linear infinite; */
 }
 
 #backe{
@@ -468,33 +467,6 @@ html, body{
     font-weight: 600;
     text-shadow: 1px 1px 4px #fff;
     margin-bottom: 15px;
-    /* animation: shaketext 0.2s linear infinite; */
-}
-
-@keyframes shaketext {
-    0%{
-        transform: translateX(0px);
-    }
-    25%{
-        transform: translateX(3px);
-        transform: skewX(6deg);
-    }
-    50%{
-        transform: translateX(2px);
-        transform: skewX(3deg);
-    }
-    75%{
-        transform: translateX(1px);
-        transform: skewX(1deg);
-    }
-    100%{
-        transform: translateX(0px);
-        transform: skewX(0deg);        
-    }
-}
-
-#row22:hover #frnthead{
-    animation: shaketext 0.3s ease-out 3;
 }
 
 #frpnt{
