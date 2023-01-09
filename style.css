@@ -545,7 +545,7 @@ html, body{
     font-size: 18px;
     padding: 5px;
     text-decoration: none;
-    color: rgb(250, 127, 148);
+    color: rgb(150, 127, 255);
 }
 .projele a:hover{
     background-color: #6600b975;
