@@ -250,7 +250,7 @@ html, body{
 
 .contele span{
     width: 35%;
-    min-width: 250px;
+    min-width: 200px;
     align-self: center;
     display: flex;
     align-items: center;
@@ -549,4 +549,219 @@ html, body{
 }
 .projele a:hover{
     background-color: #388eff49;
+}
+
+#navbtn{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 45px;
+    height: 45px;
+    top: 10px;
+    right: 6px;
+    backdrop-filter: blur(100px);
+    z-index: 6;
+    opacity: 0.8;
+}
+#nbline1{
+    position: relative;
+    height: 5px;
+    width: 35px;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: white;
+    z-index: 6;
+}
+#nbline2{
+    position: relative;
+    height: 5px;
+    margin-top: 10px;
+    width: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    background-color: white;
+    z-index: 6;
+}
+#nbline3{
+    position: relative;
+    height: 5px;
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: white;
+    z-index: 6;
+}
+
+@media screen and (max-width: 1200px) {
+    .projhead{
+        font-size: 18px;
+    }
+    .projcont{
+        font-size: 15px;
+    }
+    .projcont a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #line1{
+        font-size: 20px;
+    }
+    #line2{
+        font-size: 30px;
+    }
+    #line3, #line4{
+        font-size: 25px;
+    }
+    #hihead{
+        font-size: 20px;
+    }
+    #row12{
+        font-size: 17px;
+    }
+    .contele{
+        font-size: 20px;
+    }
+    .contele span{
+        width: 25%;
+    }
+    .fincont{
+        font-size: 18px;
+    }
+    .finheads{
+        font-size: 21px;
+    }
+    .bigh{
+        font-size: 30px;
+    }
+    #frnthead, #bkhead{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .iskl span{
+        font-size: 16px;
+        width: 90px;
+    }
+    .outerbar{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    #cont1{
+        padding: 0px;
+    }
+    #line1{
+        font-size: 15px;
+    }
+    #line2{
+        font-size: 22px;
+    }
+    #line3, #line4{
+        font-size: 18px;
+    }
+    :root{
+        --height : 100%
+    }
+    .navbar{
+        font-size: 15px;
+    }
+    .nele{
+        margin-left: 20px;
+    }
+    #hihead{
+        font-size: 18px;
+    }
+    #row12{
+        font-size: 15px;
+    }
+    .contele{
+        font-size: 16px;
+        width: 100%;
+        margin-left: 30px;
+    }
+    .contele span{
+        min-width: 150px;
+        margin-left: 30px;
+    }
+    #email{
+        margin-right: 2px;
+    }
+    #copy{
+        margin-left: 3px;
+    }
+    .fincont{
+        font-size: 12px;
+    }
+    .finheads{
+        font-size: 14px;
+    }
+    .bigh{
+        font-size: 23px;
+    }
+    #frnthead, #bkhead{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .iskl span{
+        font-size: 11px;
+        width: 60px;
+    }
+    .outerbar{
+        width: 250px;
+    }
+    .contele{
+        font-size: 12px;
+    }
+    #navbtn{
+        display: flex;
+    }
+    .headline{
+        backdrop-filter: none;
+    }
+    .navbar{
+        opacity: 0;
+        flex-direction: column;
+        margin-top: 50px;
+        transition: opacity 200ms;
+    }
+    .nele{
+        backdrop-filter: blur(15px);
+    }
+    .fincont{
+        font-size: 10px;
+    }
+    .finheads{
+        font-size: 12px;
+    }
+    .bigh{
+        font-size: 18px;
+    }
+    #frnthead, #bkhead{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #line1{
+        font-size: 12px;
+    }
+    #line2{
+        font-size: 20px;
+    }
+    #line3, #line4{
+        font-size: 15px;
+    }
+    #hihead{
+        font-size: 14px;
+    }
+    #row12{
+        font-size: 11px;
+    }
 }
