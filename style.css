@@ -69,8 +69,8 @@ html, body{
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 4px;
+    height: 4px;
     display: flex;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -78,11 +78,12 @@ html, body{
   /* Track */
   ::-webkit-scrollbar-track {
     display: none;
+    background-color: rgba(0, 0, 0, 0);
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(0, 255, 221, 0.267); 
+    background: rgba(100, 255, 255, 0.25); 
     border-radius: 3px;
   }
   
@@ -638,6 +639,55 @@ html, body{
     }
     #frnthead, #bkhead{
         font-size: 25px;
+    }
+}
+
+@media screen and (max-height: 800px){
+    #line1{
+        font-size: 20px;
+    }
+    #line2{
+        font-size: 30px;
+    }
+    #line3, #line4{
+        font-size: 25px;
+    }
+    #hihead{
+        font-size: 20px;
+    }
+    #row12{
+        font-size: 17px;
+    }
+    .contele{
+        font-size: 20px;
+    }
+    .contele span{
+        width: 25%;
+    }
+    .fincont{
+        font-size: 18px;
+    }
+    .finheads{
+        font-size: 21px;
+    }
+    .bigh{
+        font-size: 30px;
+    }
+    #frnthead, #bkhead{
+        font-size: 25px;
+    }
+    .iskl span{
+        font-size: 16px;
+        width: 90px;
+    }
+    .outerbar{
+        width: 320px;
+    }
+    #cont1{
+        padding: 0px;
+    }
+    :root{
+        --height : 100%
     }
 }
 
