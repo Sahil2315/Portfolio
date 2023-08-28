@@ -703,6 +703,9 @@ html, body{
 }
 
 @media screen and (max-width: 610px) {
+    :root{
+        --height : 100%
+    }
     #cont1{
         padding: 0px;
     }
